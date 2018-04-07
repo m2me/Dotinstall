@@ -20,5 +20,6 @@ div {
 #box2 {
   background: orange;
   opacity: .5;
+  -webkit-transform:rotate(30deg);
   transform:rotate(30deg);
 }
