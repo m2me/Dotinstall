@@ -14,10 +14,16 @@ div {
 
 #box1 {
   background: skyblue;
-  opacity: .5
+  opacity: .5;
 }
 
 #box2 {
   background: orange;
-  opacity: .5
+  opacity: .5;
+  /* transform:translate(20px, 40px); */
+  /* transform:translatex(20px); */
+  /* transform:scale(0.5, 1.5); */
+  /* transform:skew(10deg, 20deg); */
+  transform:rotate(30deg);
+  transform-origin: 0 0;
 }
